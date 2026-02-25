@@ -1,0 +1,14 @@
+node_modules/
+dist/
+frontend/node_modules/
+bin/
+vendor/
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.sum
+go.work
+wails_tools.nsh

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://wails.io/schemas/config.v2.json",
+  "name": "ncm-converter",
+  "outputfilename": "ncm-converter",
+  "frontend:install": "pnpm install",
+  "frontend:build": "pnpm build",
+  "frontend:dev:watcher": "pnpm dev",
+  "frontend:dev:serverUrl": "auto",
+  "frontend": "./frontend",
+  "icon": "build/appicon.png",
+  "outputType": "bin",
+  "author": {
+    "name": "NCM Converter",
+    "email": "support@ncm-converter.com"
+  }
+}
